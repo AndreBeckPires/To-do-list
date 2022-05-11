@@ -19,3 +19,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
+#tasks input:checked + label {
+  text-decoration: line-through;
+}

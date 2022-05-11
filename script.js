@@ -4,10 +4,12 @@ var deleteButtons = document.getElementsByTagName("h1")[0];
 function createTask() {
   let tasks = document.getElementById("tasks");
   let val = document.querySelector("input").value;
+
   let check = document.createElement("input");
   let label = document.createElement("label");
   let p = document.createElement("p");
   let button = document.createElement("button");
+
   label.setAttribute("for", "check" + numberOfTasks);
   label.innerHTML = val;
   check.id = "check" + numberOfTasks;
