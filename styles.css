@@ -11,3 +11,11 @@ body {
   display: flex;
   justify-content: center;
 }
+#table {
+  display: flex;
+  justify-content: center;
+}
+#input {
+  display: flex;
+  justify-content: center;
+}
